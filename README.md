@@ -1,6 +1,6 @@
 # **This is a DBMS Project made by bash Shell Script**
 
-
+![alt](https://github.com/abdallahashraf22/DBMS_in_Bash_Script_Project/blob/main/images/Cover.png)
 
 ## **Usage :**
 ### 1. Clone the Project
@@ -20,7 +20,7 @@ chmod +x *
 
 ## **Capabilities :**
 
-
+![alt](https://github.com/abdallahashraf22/DBMS_in_Bash_Script_Project/blob/main/images/data_bases.jpg)
 
 ### 1. Create DataBase 
 ### 2. List DataBases 
@@ -39,9 +39,8 @@ chmod +x *
 ```
 ### 4. Drop DataBase
 
+![alt](https://github.com/abdallahashraf22/DBMS_in_Bash_Script_Project/blob/main/images/selecting.jpg)
 
 
-
-
-    
+![alt](https://github.com/abdallahashraf22/DBMS_in_Bash_Script_Project/blob/main/images/tables.jpg)
 
