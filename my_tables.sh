@@ -30,13 +30,13 @@ while true; do
             if [ -f ./databases/"$1"/"$table_name_delete" ]; then
                 read -p "Are you sure you want to delete the table $table_name_delete? Enter y or n: " choice
                 case $choice in
-                [Yy]*)
+                [Yy])
                     rm ./databases/"$1"/"$table_name_delete"
                     rm ./databases/"$1"/".$table_name_delete"
                     echo -e $Red"Deleted"$ENDCOLOR
                     break
                     ;;
-                [Nn]*)
+                [Nn])
                     echo -e $Green"Didn't delete."$ENDCOLOR
                     break
                     ;;

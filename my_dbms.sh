@@ -63,16 +63,16 @@ while true; do
             echo -e $Green"Available databases: "$ENDCOLOR
             ls ./databases/
             echo "======================================================="
-            read -p -e "Which database to drop: " database_name_delete
+            read -p "Which database to drop: " database_name_delete
             if [ -d ./databases/"$database_name_delete" ]; then
                 read -p "Are you sure you want to delete the database $database_name_delete? Enter y or n: " choice
                 case $choice in
-                [Yy]*)
+                [Yy])
                     rm -r ./databases/"$database_name_delete"
                     echo -e $Red"Deleted."$ENDCOLOR
                     break
                     ;;
-                [Nn]*)
+                [Nn])
                     echo -e $Green"Didn't delete."$ENDCOLOR
                     break
                     ;;
@@ -82,7 +82,7 @@ while true; do
                     ;;
                 esac
             else
-                echo $Yellow"Such database doesn't exist."$ENDCOLOR
+                echo -e $Yellow"Such database doesn't exist."$ENDCOLOR
             fi
             break
             ;;
