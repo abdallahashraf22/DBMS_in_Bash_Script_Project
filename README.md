@@ -5,7 +5,7 @@
 ## **Usage :**
 ### 1. Clone the Project
 ```ruby
-git clone git@github.com:abdallahashraf22/DBMS_in_Bash_Script_Project.git`
+git clone git@github.com:abdallahashraf22/DBMS_in_Bash_Script_Project.git
 ```
 ### 2. cd to it
 ```ruby
