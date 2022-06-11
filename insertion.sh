@@ -60,8 +60,8 @@ for ((j = 1; j < $number_of_insertion_col; j++)); do
                 filled_or_not=$(cut -d: -f $primary_key_field ./databases/"$1"/"$table_to_insert" | grep -w $value_col)
             done
         fi
-        while [[ $value_col != +([a-zA-Z0-9]) ]]; do
-            echo $Red"This column is a string."$ENDCOLOR
+        while [[ $value_col != +([a-zA-Z0-9\ ]) ]]; do
+            echo -e $Red"This column is a string."$ENDCOLOR
             read -p "Enter a string: " value_col
             # and it's also the pk
             if [ $j = $primary_key_field ]; then

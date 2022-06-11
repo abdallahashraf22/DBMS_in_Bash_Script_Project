@@ -1,30 +1,44 @@
-# **This is a DBMS Project made by bash Shell Script**
+# **This is a DBMS Project made by Bash Shell Scripting**
 
-![alt](https://github.com/abdallahashraf22/DBMS_in_Bash_Script_Project/blob/main/images/Cover.png)
+![BashShell](https://github.com/abdallahashraf22/DBMS_in_Bash_Script_Project/blob/main/images/Cover.png)
+
+**Video Demo**: https://youtu.be/-lEN98x4R7I
+
+**Description**:
+
+**CS50 Final Project** - DataBase Management System using Bash Shell Scripting and the unix Filesystem
 
 ## **Usage :**
+
 ### 1. Clone the Project
+
 ```ruby
 git clone git@github.com:abdallahashraf22/DBMS_in_Bash_Script_Project.git
 ```
+
 ### 2. cd to it
+
 ```ruby
 cd DBMS-Project/
 ```
+
 ### 3. Run the my_dbms script
+
 ```ruby
 chmod +x *
 ./main.sh
 ```
 
-
 ## **Capabilities :**
 
 ![alt](https://github.com/abdallahashraf22/DBMS_in_Bash_Script_Project/blob/main/images/data_bases.jpg)
 
-### 1. Create DataBase 
-### 2. List DataBases 
-### 3. Connect to DataBase 
+### 1. Create DataBase
+
+### 2. List DataBases
+
+### 3. Connect to DataBase
+
 ```ruby
 1. Create table
 2. List tables
@@ -37,10 +51,9 @@ chmod +x *
 6. Delete from table
 7. Update table
 ```
+
 ### 4. Drop DataBase
 
 ![alt](https://github.com/abdallahashraf22/DBMS_in_Bash_Script_Project/blob/main/images/selecting.jpg)
 
-
 ![alt](https://github.com/abdallahashraf22/DBMS_in_Bash_Script_Project/blob/main/images/tables.jpg)
-

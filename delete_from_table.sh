@@ -47,5 +47,5 @@ for ((i = 0, j = 0; i < ${#string_length}; i = i + 2, j++)); do
     inetger_column_number_delete=$inetger_column_number_delete-$j
     sed -i "$inetger_column_number_delete d" ./databases/"$1"/"$table_to_delete_from"
 done
-echo $Red"Deleted record"$ENDCOLOR
+echo -e $Red"Deleted record"$ENDCOLOR
 source ./my_tables.sh
